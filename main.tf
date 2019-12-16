@@ -57,7 +57,7 @@ resource "ibm_app" "cfapp" {
 
 
 data "ibm_app_domain_shared" "mydomain" {
-  name = "mybluemix.net"
+  name = "mybluemixjana.net"
 }
 
 resource "ibm_app_route" "myroute" {
